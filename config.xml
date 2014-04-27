@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml -->
+<config>
+    <java>
+        <home>
+            <name>Java6</name>
+            <path>C:\Program Files\Java\jdk1.6.0_45</path>
+        </home>
+        <home>
+            <name>Java7</name>
+            <path>C:\Program Files\Java\jdk1.7.0_40</path>
+        </home>
+    </java>
+
+<!--     <console>d:\portable\Console2\Console.exe</console> -->
+    <console>cmd.exe /k start</console>
+
+    <run>
+        <Java6> <!-- this node have to same as one of the java/home/name -->
+            <task>
+                <name>test1</name>
+                <command>.test.cmd</command>
+            </task>
+        </Java6>
+        <Java7>
+            <task>
+                <name>test2</name>
+                <command>.\test.cmd</command>
+            </task>
+        </Java7>
+    </run>
+</config>
