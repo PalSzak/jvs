@@ -4,7 +4,7 @@ JVS
 Java Version Switcher
 ----
 
-The goal of this project is to make easier to use different java versions on windows operating system.
+The goal of this project is to make easier to use different java versions on windows operating system. [download executable]
 
 #####Features:
 * You can change the JAVA_HOME.
@@ -74,3 +74,4 @@ MIT
 
 [console2.0]:http://sourceforge.net/projects/console/
 [JIntellitype]:https://code.google.com/p/jintellitype/
+[download executable]:https://github.com/PalSzak/jvs/blob/master/executable/jvs-jre7.zip?raw=true
