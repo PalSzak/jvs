@@ -1,0 +1,54 @@
+2013-10-15 15:54:50,071  INFO   [JavaVersionSwitcher] application start 
+2013-10-15 15:54:50,100  INFO   [JavaVersionSwitcher] System tray supported 
+2013-10-15 15:54:50,172  INFO   [CommandRunner] Microsoft Windows [Version 6.1.7601] 
+2013-10-15 15:54:50,272  INFO   [CommandRunner] Copyright (c) 2009 Microsoft Corporation.  All rights reserved. 
+2013-10-15 15:54:50,372  INFO   [CommandRunner]  
+2013-10-15 15:54:59,405  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.7.0_40\bin;%PATH% 
+2013-10-15 15:54:59,505  INFO   [CommandRunner]  
+2013-10-15 15:54:59,510  ERROR  [CommandRunner] java version "1.7.0_40" 
+2013-10-15 15:54:59,605  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>.\src\main\resources\test.cmd 
+2013-10-15 15:54:59,610  ERROR  [CommandRunner] Java(TM) SE Runtime Environment (build 1.7.0_40-b43) 
+2013-10-15 15:54:59,705  INFO   [CommandRunner]  
+2013-10-15 15:54:59,710  ERROR  [CommandRunner] Java HotSpot(TM) 64-Bit Server VM (build 24.0-b56, mixed mode) 
+2013-10-15 15:54:59,805  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>echo C:\Program Files\Java\jdk1.6.0_45  
+2013-10-15 15:54:59,905  INFO   [CommandRunner] C:\Program Files\Java\jdk1.6.0_45 
+2013-10-15 15:55:00,005  INFO   [CommandRunner]  
+2013-10-15 15:55:00,105  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>java -version  
+2013-10-15 15:55:00,205  INFO   [CommandRunner]  
+2013-10-15 15:56:43,049  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.6.0_45\bin;%PATH% 
+2013-10-15 15:56:43,137  ERROR  [CommandRunner] java version "1.6.0_45" 
+2013-10-15 15:56:43,149  INFO   [CommandRunner]  
+2013-10-15 15:56:43,237  ERROR  [CommandRunner] Java(TM) SE Runtime Environment (build 1.6.0_45-b06) 
+2013-10-15 15:56:43,249  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>.\src\main\resources\test.cmd 
+2013-10-15 15:56:43,337  ERROR  [CommandRunner] Java HotSpot(TM) 64-Bit Server VM (build 20.45-b01, mixed mode) 
+2013-10-15 15:56:43,349  INFO   [CommandRunner]  
+2013-10-15 15:56:43,449  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>java -version  
+2013-10-15 15:56:43,549  INFO   [CommandRunner]  
+2013-10-15 15:56:59,224  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.7.0_40\bin;%PATH% 
+2013-10-15 15:56:59,302  ERROR  [CommandRunner] java version "1.7.0_40" 
+2013-10-15 15:56:59,324  INFO   [CommandRunner]  
+2013-10-15 15:56:59,402  ERROR  [CommandRunner] Java(TM) SE Runtime Environment (build 1.7.0_40-b43) 
+2013-10-15 15:56:59,424  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>.\src\main\resources\test.cmd 
+2013-10-15 15:56:59,502  ERROR  [CommandRunner] Java HotSpot(TM) 64-Bit Server VM (build 24.0-b56, mixed mode) 
+2013-10-15 15:56:59,524  INFO   [CommandRunner]  
+2013-10-15 15:56:59,624  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>java -version  
+2013-10-15 15:56:59,724  INFO   [CommandRunner]  
+2013-10-15 15:59:51,548  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>exit 
+2013-10-15 15:59:51,565  INFO   [JavaVersionSwitcher] aplication exit 
+2013-10-15 16:21:33,214  INFO   [JavaVersionSwitcher] application start 
+2013-10-15 16:21:33,245  INFO   [JavaVersionSwitcher] System tray supported 
+2013-10-15 16:21:33,317  INFO   [CommandRunner] Microsoft Windows [Version 6.1.7601] 
+2013-10-15 16:21:33,417  INFO   [CommandRunner] Copyright (c) 2009 Microsoft Corporation.  All rights reserved. 
+2013-10-15 16:21:33,517  INFO   [CommandRunner]  
+2013-10-15 16:21:40,387  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.6.0_45\bin;%PATH% 
+2013-10-15 16:21:40,487  INFO   [CommandRunner]  
+2013-10-15 16:21:40,587  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>d:\portable\Console2\Console.exe 
+2013-10-15 16:21:40,687  INFO   [CommandRunner]  
+2013-10-15 16:21:43,122  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.7.0_40\bin;%PATH% 
+2013-10-15 16:21:43,222  INFO   [CommandRunner]  
+2013-10-15 16:21:43,322  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>d:\portable\Console2\Console.exe 
+2013-10-15 16:21:43,422  INFO   [CommandRunner]  
+2013-10-15 16:21:43,985  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>SET PATH=C:\Program Files\Java\jdk1.6.0_45\bin;%PATH% 
+2013-10-15 16:21:44,086  INFO   [CommandRunner]  
+2013-10-15 16:21:44,186  INFO   [CommandRunner] C:\Users\Pal_Szak\workspace_learning\jvs>d:\portable\Console2\Console.exe 
+2013-10-15 16:21:44,286  INFO   [CommandRunner]  
