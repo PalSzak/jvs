@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <name>Java Version Switcher</name>
     <groupId>net.f3rn.jvs</groupId>
@@ -82,6 +83,41 @@
                             </versionInfo>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>jvs-stand_alone</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>launch4j</goal>
+                        </goals>
+                        <configuration>
+                            <headerType>gui</headerType>
+                            <jar>${project.build.directory}/${artifactId}-${version}-shaded.jar</jar>
+                            <outfile>${project.build.directory}/jvs-sa.exe</outfile>
+                            <downloadUrl>http://java.com/download</downloadUrl>
+                            <classPath>
+                                <mainClass>net.f3rn.jvs.JavaVersionSwitcher</mainClass>
+                                <preCp>anything</preCp>
+                            </classPath>
+                            <icon>jvs.ico</icon>
+                            <jre>
+                                <path>./jre7</path>
+                                <minVersion>1.7.0</minVersion>
+                                <jdkPreference>preferJre</jdkPreference>
+                            </jre>
+                            <versionInfo>
+                                <fileVersion>1.0.0.0</fileVersion>
+                                <txtFileVersion>${project.version}</txtFileVersion>
+                                <fileDescription>${project.name}</fileDescription>
+                                <copyright>2014 f3rn.net</copyright>
+                                <productVersion>1.0.0.0</productVersion>
+                                <txtProductVersion>1.0.0.0</txtProductVersion>
+                                <productName>${project.name}</productName>
+                                <companyName>f3rn.net</companyName>
+                                <internalName>jvm</internalName>
+                                <originalFilename>jvs-sa.exe</originalFilename>
+                            </versionInfo>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
@@ -90,6 +126,7 @@
                     <finalName>jvs</finalName>
                     <descriptors>
                         <descriptor>src/main/resources/descriptor.xml</descriptor>
+                        <descriptor>src/main/resources/descriptor_standalone.xml</descriptor>
                     </descriptors>
                 </configuration>
                 <executions>
